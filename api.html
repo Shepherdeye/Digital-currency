@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/api.css">
+    <title>API</title>
+</head>
+
+
+<div id="loading" class=" align-items-center justify-content-center">
+  <div class="sk-cube-grid ">
+    <div class="sk-cube sk-cube1"></div>
+    <div class="sk-cube sk-cube2"></div>
+    <div class="sk-cube sk-cube3"></div>
+    <div class="sk-cube sk-cube4"></div>
+    <div class="sk-cube sk-cube5"></div>
+    <div class="sk-cube sk-cube6"></div>
+    <div class="sk-cube sk-cube7"></div>
+    <div class="sk-cube sk-cube8"></div>
+    <div class="sk-cube sk-cube9"></div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm navbar-light shadow fixed-top" id="navbar">
+  <a class="navbar-brand text-warning nav-link" href="#" >DC <span style="font-size: 15px;"> prices</span></a>
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
+    <span class="navbar-toggler-icon" ></span>
+  </button>
+  <div class="collapse navbar-collapse posd" id="collapsibleNavId">
+    <ul class="navbar-nav  mt-2 mt-lg-0 text-dark">
+      <li class="nav-item active">
+        <a class="nav-link text-warning font-weight-bold" href="start.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link text-warning font-weight-bold" href="DCinfo.html">DC info <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-warning font-weight-bold" href="start.html#contact">Trading platforms <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-warning font-weight-bold " href="#row" >pricing <i class=" fa fa-arrow-down  text-warning" id="arrow"></i>  <span class="sr-only">(current)</span></a>
+      </li>
+          
+    </ul>
+    
+  </div>
+</nav>
+
+<div class="  apibg"> 
+  <h1 class=" text-capitalize text-warning typing">  digital currency chart </h1>
+  <h4 class="typing2 text-warning text-capitalize"> </h4>
+</div>
+ 
+  <table >
+    <thead>
+        <th>Icon</th>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Price(USD)</th>
+        <th>Price(EUR)</th>
+        <th>Price(EGP)</th>
+    </thead>
+    <tbody id="row">
+      
+    </tbody>
+  </table>
+
+
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/api.js"></script>
+</body>
+
+
+</html>
